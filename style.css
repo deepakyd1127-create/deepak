@@ -1,62 +1,27 @@
 body {
-  background-color: #000;
+  background: #111;
   color: #fff;
   font-family: Arial, sans-serif;
   text-align: center;
-  margin: 0;
-  padding: 0;
+  padding: 20px;
 }
-
-.container {
-  padding: 50px;
-}
-
-h1 {
-  color: orange;
-  font-size: 60px;
-  margin-bottom: 10px;
-}
-
-.subheading {
-  font-size: 20px;
-  color: #ccc;
-  margin-bottom: 20px;
-}
-
-h2 {
-  color: #fff;
-  margin-bottom: 20px;
-}
-
-.features {
-  list-style: none;
-  padding: 0;
+h1 { color: orange; }
+.brand { font-size: 40px; color: cyan; margin: 20px 0; }
+.hindi { font-size: 18px; margin: 15px 0; }
+.highlight {
+  background: #222;
+  padding: 15px;
+  border-radius: 8px;
   margin: 20px 0;
 }
-
-.features li {
-  font-size: 18px;
-  margin: 10px 0;
+.join-btn {
+  display: inline-block;
+  background: #007bff;
   color: #fff;
-}
-
-button {
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  padding: 15px 30px;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 6px;
   font-size: 18px;
-  cursor: pointer;
-  margin-top: 20px;
-  border-radius: 5px;
 }
-
-button:hover {
-  background-color: #0056b3;
-}
-
-.countdown {
-  margin-top: 30px;
-  font-size: 22px;
-  color: orange;
-}
+.join-btn:hover { background: #0056b3; }
+#timer { margin-top: 15px; color: #ff4444; }
