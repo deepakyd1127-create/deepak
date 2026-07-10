@@ -3,37 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Deepak Bhai Landing</title>
+  <title>Telegram Landing Page</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Facebook Pixel -->
+
+  <!-- ✅ Facebook Pixel Base Code -->
   <script>
-    !function(f,b,e,v,n,t,s){
-      if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '1055228917459877'); 
-      fbq('track', 'PageView');
-    </script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    
+    fbq('init', '1055228917459877'); // ✅ Tumhara Pixel ID
+    fbq('track', 'PageView'); // Sirf PageView track hoga
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1055228917459877&ev=PageView&noscript=1"/>
+  </noscript>
 </head>
 <body>
-  <div class="hero">
-    <h1>PROFIT BY DEEPAK BHAI</h1>
-    <h2>DAILY LIVE SURESHOT</h2>
-    <h3>JOIN TELEGRAM</h3>
-    <div class="icons">
-      <span>🔒 Secure</span>
-      <span>✅ Verified Channel</span>
-    </div>
-    <!-- First Button -->
-    <a href="https://t.me/+Yl-HebP3T_gxNDc1" class="btn">JOIN TELEGRAM CHANNEL</a>
-    <!-- Second Button -->
-    <a href="https://t.me/+Yl-HebP3T_gxNDc1" class="btn alt">JOIN TELEGRAM CHANNEL</a>
-    <p class="countdown">Redirecting in <span id="timer">5</span> seconds...</p>
+  <div class="container">
+    <h1>Welcome to Our Telegram Channel</h1>
+    <p>Stay updated with the latest content!</p>
+    <a href="https://t.me/+zt-fhc3n3ywyMWQ1l" class="join-btn">JOIN TELEGRAM CHANNEL</a>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
